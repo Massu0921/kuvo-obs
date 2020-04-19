@@ -19,6 +19,16 @@ section[data-page=playlist] .tracklist-area .row.on .title {
     color: white !important;
 }
 
+section[data-page=playlist] .tracklist-area .row.on .title{
+    /* 曲名の文字サイズ */
+	font-size: 35px;
+}
+
+section[data-page=playlist] .tracklist-area .row.on .artist{
+    /* アーティスト名の文字サイズ */
+	font-size: 27px;
+}
+
 /* 開発者向け */
 /*---------------------------------------------------------*/
 /* 全体 */
@@ -33,10 +43,16 @@ header, div#fix-menu, .info-area, h3, .button-row, .off {
     display: none;
 }
 
+/* 再生時時刻を削除 */
+section[data-page=playlist] .tracklist-area .row.on .time{
+	display: none;
+}
+
 /* 余白を削除 */
 .frame {
     padding: 0;
 }
+
 .frame>.r {
     margin-left: 0;
 }
