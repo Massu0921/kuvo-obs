@@ -1,0 +1,40 @@
+/*
+    再生中の曲を表示するCSS spバージョン(幅600px以下)
+    OBSのブラウザソースにLive PlaylistのURLを設定, CSSにこのファイル内容をコピペ
+    このCSSは"""幅を600px以下に指定した場合"""に有効です
+
+*/
+
+/* ---再生中の曲表示のスタイル--- */
+.tracklist-area .row{
+	/* 背景 */
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+/* [要素指定厳守] 文字色 */
+section[data-page=playlist] .tracklist-area .row.on .artist,
+section[data-page=playlist] .tracklist-area .row.on .name,
+section[data-page=playlist] .tracklist-area .row.on .time,
+section[data-page=playlist] .tracklist-area .row.on .title {
+	/* 文字色 */
+    color: white !important;
+}
+
+/* 開発者向け */
+/*---------------------------------------------------------*/
+/* 全体 */
+body { 
+	background-color: rgba(0, 0, 0, 0);
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+/* ヘッダ－の余白を消す */
+.frame{
+	padding-top: 0px;
+}
+
+/* 不要な要素を除外 */
+header, .app-banner, .operation-area, .info-area, .off{
+	display: none !important;
+}
+/*---------------------------------------------------------*/
