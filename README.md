@@ -10,7 +10,7 @@ rekordbox -> KUVO Live Playlist -> OBS(ブラウザ, CSS)\
 ### 1. KUVOのアカウントを作成し、rekordboxでログイン
 https://kuvo.com/
 ### 2. PDFの10ページを参考に、Live Playlist機能を有効にする
-https://kuvo.com/kuvoweb/docs/postdjmix/KUVO_DJmixPostingGuide_jp.pdf\
+https://kuvo.com/kuvoweb/docs/postdjmix/KUVO_DJmixPostingGuide_jp.pdf \
 *rekordbox 6以降は多少手順が異なる場合があります。\
 *録音は不要です。
 ### 3. 演奏開始後、プレイリストが公開されているか確認する
