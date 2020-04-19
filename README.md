@@ -30,8 +30,8 @@ View Playlist on KUVOを押すとブラウザが開きます。\
 
 ### 2. プロパティでURLとCSSを設定
 URLに、先ほど公開したプレイリストのURL https://kuvo.com/playlist/xxxxxx を設定します。\
-カスタムCSSに、`kuvo_obs.css `の中身をコピペします。\
-***幅を600以下に設定した場合は、`kuvo_obs_sp.css `の中身をコピペ**します。\
+カスタムCSSに、`kuvo_obs.css`の中身をコピペします。\
+***幅を600以下に設定した場合は、`kuvo_obs_sp.css`の中身をコピペ**します。\
 \
 <img src='imgs/obs_prop.png'>
 　\
