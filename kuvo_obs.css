@@ -16,7 +16,8 @@ section[data-page=playlist] .tracklist-area .row.on .name,
 section[data-page=playlist] .tracklist-area .row.on .time,
 section[data-page=playlist] .tracklist-area .row.on .title {
 	/* 文字色 */
-    color: white !important;
+    color: white !important;	
+    white-space: nowrap;  /* 折り返し無効 */
 }
 
 section[data-page=playlist] .tracklist-area .row.on .title{
@@ -34,12 +35,18 @@ section[data-page=playlist] .tracklist-area .row.on .artist{
 /* 全体 */
 body { 
 	background-color: rgba(0, 0, 0, 0);
-	margin: 0px auto;
-	overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* 全体マージンを削除 */
+#body {
+    margin: 0;
 }
 
 /* 不要な要素を除外 */
-header, div#fix-menu, .info-area, h3, .button-row, .off {
+header, div#fix-menu, .info-area, h3, .button-row, .off, .link {
     display: none;
 }
 
@@ -52,8 +59,13 @@ section[data-page=playlist] .tracklist-area .row.on .time{
 .frame {
     padding: 0;
 }
-
 .frame>.r {
     margin-left: 0;
 }
+
+/* 文字が隠れないように */
+.page-group {
+    overflow: visible;
+}
+
 /*---------------------------------------------------------*/
