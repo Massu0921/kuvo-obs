@@ -1,7 +1,7 @@
 # kuvo-obs
 KUVOのLive Playlist機能を用いてOBSに再生中の曲を表示するためのCSSです。\
 rekordbox -> KUVO Live Playlist -> OBS(ブラウザ, CSS)\
-欠点: 再生中の曲が切り替わるまでに数十秒を要するので、ウインドウキャプチャしたほうがいいかも
+欠点: 再生中の曲が切り替わるまでに数十秒を要するので、リアルタイム性には欠けます。
 
 <img src='imgs/obs.png'>
 
@@ -10,9 +10,10 @@ rekordbox -> KUVO Live Playlist -> OBS(ブラウザ, CSS)\
 ### 1. KUVOのアカウントを作成し、rekordboxでログイン
 https://kuvo.com/
 ### 2. PDFの10ページを参考に、Live Playlist機能を有効にする
-https://kuvo.com/kuvoweb/docs/postdjmix/KUVO_DJmixPostingGuide_jp.pdf \
-*rekordbox 6以降は多少手順が異なる場合があります。\
-*録音は不要です。
+JP: https://kuvo.com/kuvoweb/docs/postdjmix/KUVO_DJmixPostingGuide_jp.pdf \
+EN: https://kuvo.com/kuvoweb/docs/postdjmix/KUVO_DJmixPostingGuide_en.pdf \
+\*rekordbox 6以降は多少手順が異なる場合があります。\
+\*録音は不要です。
 ### 3. 演奏開始後、プレイリストが公開されているか確認する
 Live PlaylistをSTARTした後rekordboxで演奏を開始すると、演奏した曲がリアルタイムで公開されます。\
 View Playlist on KUVOを押すとブラウザが開きます。\
@@ -31,17 +32,17 @@ View Playlist on KUVOを押すとブラウザが開きます。\
 ### 2. プロパティでURLとCSSを設定
 URLに、先ほど公開したプレイリストのURL https://kuvo.com/playlist/xxxxxx を設定します。\
 カスタムCSSに、`kuvo_obs.css`の中身をコピペします。\
-***幅を600以下に設定した場合は、`kuvo_obs_sp.css`の中身をコピペ**します。\
+\***幅を600以下に設定した場合は、`kuvo_obs_sp.css`の中身をコピペ**します。\
 \
 <img src='imgs/obs_prop.png'>
 　\
 OKを押すと、現在再生中の曲のみが表示されます。\
 \
 <img src='imgs/obs_np.png'>\
-再度プロパティを開き、適切な高さにします。
+再度プロパティを開き、適切な高さにします。  
 
 ## CSSができる人
-背景色、文字色など自由に変更できる💪
+背景色、文字色など自由に変更可能です。  
 
 ## FAQ
 ### 曲名の端が切れて表示される
