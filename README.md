@@ -1,4 +1,10 @@
 # kuvo-obs
+> **Note**  
+2022/09のKUVOのサービス終了に伴い，このプロジェクトによる曲名表示は使用できなくなります．  
+また，rekordbox 6.6.4以降をお使いの方はKUVO関連機能が削除されているため，曲名表示ができません．  
+Display playing rekordbox track infomation on OBS by this project will be unavailable when KUVO service is terminated on 2022/09.  
+Also, rekordbox 6.6.4 or later will not be able to display track information because KUVO-related functions have been removed.  
+
 KUVOのLive Playlist機能を用いてOBSに再生中の曲を表示するためのCSSです。\
 rekordbox -> KUVO Live Playlist -> OBS(ブラウザ, CSS)\
 欠点: 再生中の曲が切り替わるまでに数十秒を要するので、リアルタイム性には欠けます。
